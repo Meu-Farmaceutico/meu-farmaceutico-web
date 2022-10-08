@@ -1,8 +1,8 @@
-import './App.css';
-import Produto from './components/Produto.jsx'
-import Header from './components/Header.jsx'
+import '../styles/Produto.css';
+import Tratamento from '../components/Tratamento.jsx'
+import Header from '../components/Header.jsx'
 
-function App() {
+function Produto() {
 
 const produtos = [{key: 1, nome: "Rivotril", dose: "20mg"}, 
 {key: 2, nome: "Tandrilax", dose: "50mg"}, 
@@ -15,7 +15,7 @@ const produtos = [{key: 1, nome: "Rivotril", dose: "20mg"},
     {
       produtos.map((produto) => {
           return (
-              <Produto nome={produto.nome} dose={produto.dose} key={produto.key}/>
+              <Tratamento nome={produto.nome} dose={produto.dose} key={produto.key}/>
           ) 
       })
 
@@ -23,4 +23,4 @@ const produtos = [{key: 1, nome: "Rivotril", dose: "20mg"},
     </main>
   )
 }
-export default App;
+export default Produto;

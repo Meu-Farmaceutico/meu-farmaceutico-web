@@ -39,7 +39,7 @@
 }
 
 .produto__nome::before {
-    content: url(../public/icons/bell.png);
+    content: url(../../public/icons/bell.png);
     width: 16px;
     height:16px;
     margin-right: 5px;

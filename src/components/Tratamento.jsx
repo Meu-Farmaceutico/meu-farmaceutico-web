@@ -1,8 +1,8 @@
-const Produto = (props) => {
+const Tratamento = (props) => {
 
-    function handleEditing() {
+    // function handleEditing() {
         
-    }
+    // }
 
     return (
         <div className="produto" key={props.key}>
@@ -19,4 +19,4 @@ const Produto = (props) => {
 }
 
 
-export default Produto;
+export default Tratamento;
