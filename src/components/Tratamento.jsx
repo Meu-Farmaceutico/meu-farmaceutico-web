@@ -1,4 +1,5 @@
 const Tratamento = (props) => {
+    console.log(props.config)
 
     // function handleEditing() {
         

@@ -2,7 +2,8 @@ import '../styles/Produto.css';
 import Tratamento from '../components/Tratamento.jsx'
 import Header from '../components/Header.jsx'
 
-function Produto() {
+
+function Produto(props) {
 
 const produtos = [{key: 1, nome: "Rivotril", dose: "20mg"}, 
 {key: 2, nome: "Tandrilax", dose: "50mg"}, 
@@ -13,9 +14,9 @@ const produtos = [{key: 1, nome: "Rivotril", dose: "20mg"},
     <main className="main">
     <Header />
     {
-      produtos.map((produto) => {
+      produtos.map((props) => {
           return (
-              <Tratamento nome={produto.nome} dose={produto.dose} key={produto.key}/>
+              <Tratamento firebaseConfig={props.firebaseConfig} nome={props.nome} dose={props.dose} key={props.key}/>
           ) 
       })
 
