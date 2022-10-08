@@ -4,7 +4,8 @@ import HistoricoVazio from '../components/HistoricoVazio.jsx';
 import Tratamento from '../components/Tratamento.jsx'
 import Header from '../components/Header.jsx'
 
-function Produto() {
+
+function Produto(props) {
 
 const produtos = [{key: 1, nome: "Rivotril", dose: "20mg"}, 
 {key: 2, nome: "Tandrilax", dose: "50mg"}, 
@@ -13,7 +14,15 @@ const produtos = [{key: 1, nome: "Rivotril", dose: "20mg"},
 
   return (
     <main className="main">
-        <HistoricoVazio />
+    <Header />
+    {
+      produtos.map((props) => {
+          return (
+              <Tratamento firebaseConfig={props.firebaseConfig} nome={props.nome} dose={props.dose} key={props.key}/>
+          ) 
+      })
+
+    }
     </main>
   )
 }

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Home {
+    background-image: url(../assets/imgs/tela_app.png);
+    height: 100vh;
+    background-position: top center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    content: url(../assets/imgs/farmaceutico_Avatar.svg);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: fixed;
+    background: #E5F4FB;
+    width: 60px;
+    height: 60px;
+    right: 10px;
+    bottom: 60px;
+    border-radius: 50%;
+    border: 5px solid #E5F4FB;
+    text-decoration: none;
+}
