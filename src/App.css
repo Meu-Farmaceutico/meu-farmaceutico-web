@@ -1,0 +1,62 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  background-color: beige;
+}
+
+.header{
+  display: flex;
+  padding: 1em;
+  justify-content: center;
+  background-color: #1746A2;
+  width: 100%;
+}
+
+.produto {
+  border-radius: 10px;
+  background-color: blueviolet;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em;
+  width: 90%;
+}
+
+.produto__rotulo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 2;
+}
+
+.produto__nome::before {
+    content: url(../public/icons/bell.png);
+    width: 16px;
+    height:16px;
+    margin-right: 5px;
+}
+
+.action{
+  flex: 1;
+  display: flex;
+  margin-left: .5em;  
+}
+
+.produto__action {
+  padding: .3em;
+  margin-right: .5em;
+  min-width: 4em;
+}
+
+.produto-action::active  {
+  background-color: #5F9DF7;
+}
