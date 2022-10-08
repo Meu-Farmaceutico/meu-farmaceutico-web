@@ -1,4 +1,6 @@
 import '../styles/Produto.css';
+import '../styles/historico-vazio.css';
+import HistoricoVazio from '../components/HistoricoVazio.jsx';
 import Tratamento from '../components/Tratamento.jsx'
 import Header from '../components/Header.jsx'
 
@@ -11,15 +13,7 @@ const produtos = [{key: 1, nome: "Rivotril", dose: "20mg"},
 
   return (
     <main className="main">
-    <Header />
-    {
-      produtos.map((produto) => {
-          return (
-              <Tratamento nome={produto.nome} dose={produto.dose} key={produto.key}/>
-          ) 
-      })
-
-    }
+        <HistoricoVazio />
     </main>
   )
 }

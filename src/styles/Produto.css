@@ -60,3 +60,11 @@
 .produto-action::active  {
   background-color: #5F9DF7;
 }
+
+.historico__vazio {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}   

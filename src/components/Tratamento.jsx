@@ -1,9 +1,5 @@
 const Tratamento = (props) => {
 
-    // function handleEditing() {
-        
-    // }
-
     return (
         <div className="produto" key={props.key}>
             <div className="produto__rotulo">
