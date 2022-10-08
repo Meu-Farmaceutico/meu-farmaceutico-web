@@ -14,7 +14,7 @@ const Tratamento = (props) => {
                 <button className='produto__action edit'>Editar</button>
                 <button className='produto__action delete'>Deletar</button>
             </div>
-      </div>
+        </div>
     )
 }
 
