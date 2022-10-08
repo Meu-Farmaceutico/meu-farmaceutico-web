@@ -1,0 +1,12 @@
+.historico-vazio {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}   
+
+.historico-vazio-heading {
+    text-align: center;
+}
+
