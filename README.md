@@ -22,7 +22,12 @@ As seguintes ferramentas foram utilizadas neste projeto:
 - [React.Js](https://reactjs.org/)
 - [Javascript](https://www.w3schools.com/js/)
 
-# :construction_worker: Instalação
+## :stars: Acesse o protótipo do App no Figma aqui: 
+<img src="https://user-images.githubusercontent.com/97472785/194769929-f7cc84ce-1074-44ef-ab9e-5265c31a741c.jpeg" style="width: 200px; height: 200px">
+
+
+# :construction_worker: Instalação!
+
 
 **Você precisa instalar [Node.Js](https://nodejs.org/en/) primeiro, então clonar o repositorio.**
 
