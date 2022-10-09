@@ -1,6 +1,11 @@
 import './lembrete.css'
 
 const Lembrete = (props) => {
+   const [lembretes, setLembretes] = [
+    {id: 2, nome: "Gardenal", freq: "1 vez a cada 2 dias", qtd:90, ativo: false},
+    {id: 1, nome: "Captopril", freq:"2 vezes ao dia", qtd: 50, ativo: true},        
+];
+    
     return (
 <article class="card" style = {{backgroundColor: props.ativo? "#FFFFFF": "lightgrey"}}>
     <div class="card-info">
