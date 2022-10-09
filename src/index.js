@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Home from './paginas/Home';
+import Search from './paginas/Search';
 // import Produto from './paginas/Produto';
 // import { initializeApp } from "firebase/app";
 // import { getMessaging } from "firebase/messaging";
@@ -25,6 +26,7 @@ root.render(
   <React.StrictMode>
     {/* <Produto /> */}
     <Home />
+    {/* <Search /> */}
   </React.StrictMode>
 );
 

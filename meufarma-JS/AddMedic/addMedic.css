@@ -1,0 +1,42 @@
+header .container {
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 1px solid #1A73E8;
+    border-radius: 5px;
+
+}
+
+.arrow {
+    color: #6A6A6A;
+    position: absolute;
+    margin: 12px;
+    width: 24px;
+    height: 24px;
+}
+
+input {
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    height: 48px;
+    width: 35px;
+    background: transparent;
+    border-style: none;
+}
+
+img:hover {
+    cursor: pointer;
+}

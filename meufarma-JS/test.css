@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.5385;
+    color: #333;
+    text-align: left;
+    background-color: #b8babb;
+}
+
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: .25rem;
+    box-shadow: 2px 2px 4px 0px #00000029;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.card-img-actions {
+    position: relative;
+}
+
+.card-img {
+    width: 300px;
+}
+
+svg.favorite-icon {
+    position: absolute;
+    margin-left: 250px;
+}
+
+svg.favorite-icon:hover {
+    cursor: pointer;
+}
+
+h4 {
+    color: #0252a7;
+}
+
+
+@media (min-width: 768px) {
+    .card-img {
+        width: 800px;
+    }
+    svg.favorite-icon {
+        margin-left: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    svg.favorite-icon {
+        margin-left: 190px;
+    }
+}
+
+@media (max-width: 360px) {
+    svg.favorite-icon {
+        margin-left: 90px;
+    }
+}
+
+
+
+
+/* Toggle Button */
+/* Estilo iOS */
+.switch__container {
+    margin: 30px auto;
+    width: 100px;
+}
+
+.switch {
+    visibility: hidden;
+}
+
+.switch+label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
+.switch--shadow+label {
+    padding: 2px;
+    width: 42px;
+    height: 26px;
+    border-radius: 60px;
+}
+
+.switch--shadow+label:before,
+.switch--shadow+label:after {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    content: "";
+}
+
+.switch--shadow+label:before {
+    right: 1px;
+    background-color: #f1f1f1;
+    border-radius: 60px;
+    transition: background 0.4s;
+}
+
+.switch--shadow+label:after {
+    width: 26px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s;
+}
+
+.switch--shadow:checked+label:before {
+    background-color: #0054a6;
+}
+
+.switch--shadow:checked+label:after {
+    transform: translateX(15px);
+}
+
+
+
+teste {
+    display: grid;
+    margin: 0 auto;
+    position: absolute;
+}
