@@ -1,0 +1,18 @@
+.Mais {
+    background-image: url(../assets/imgs/tela_app2.png);
+    height: 100vh;
+    background-position: top center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.btn-mais {
+    content: url(../assets/imgs/meuFarmaceutico.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 67px;
+    right: 54px;
+    bottom: 65px;
+}

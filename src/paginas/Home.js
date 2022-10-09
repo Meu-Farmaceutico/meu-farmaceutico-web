@@ -1,10 +1,12 @@
 import "../styles/Home.css";
 
+
 const Home = () => {
   return (
     <div className="Home">
-      <a href="#" className="btn"></a>
+      <a className="btn-home" href="opcaomais"></a>
     </div>
+
   );
 };
 
