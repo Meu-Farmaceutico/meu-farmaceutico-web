@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Farmaceutico Digital | Campos Select</title>
+</head>
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');    
+        :root{
+            --azul: #007EC3;
+            --texto: 'Roboto', sans-serif;
+        }
+        .main{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            margin-bottom: 1em;
+        }
+
+        .option {
+            max-width: 30%;
+        }
+
+        .wrapper > label {
+            margin-bottom: .5em;
+        } 
+
+        .select{
+            padding: .5em;
+        }
+
+        .call-to-action {
+        background-color: var(--azul);
+        margin-bottom: 10px;
+        color: #FFFFFF;
+        border-radius: 4px;
+        border: none;       
+        padding: 10px;
+        width: 70% ;
+        cursor: pointer;
+    }
+
+
+
+/*  Ice-box: implementar componentes select da Material UI usando React*/
+</style>
+<body>
+    <main class="main">
+        <div class="wrapper">
+            <label for="unidade">Unidade*</label>
+            <select name="unidade" id="unidade" class="select unidade" required>
+                    <option class="option"value="comprimido">Comprimido</option>
+                    <option class="option"value="gotas">Gotas</option>
+                    <option class="option"value="injeção">Injeção</option>
+            </select>
+        </div>
+
+        <div class="wrapper">
+            <label for="unidade">Frequência de Uso*</label>
+            <select name="unidade" id="unidade" class="select uso" required>
+                    <option class="option"value="1">1 vez ao dia</option>
+                    <option class="option"value="2">2 vezes ao dia</option>
+                    <option class="option"value="3">3 vezes ao dia</option>
+            </select>
+        </div>
+        <!-- Guardar no Local Storage o valor dos campos selecionados para montar 
+            a UI da próxima tela -->
+        <input class ="call-to-action" type="button" onClick="location.href='../campos-doses/index.html'" value="Prosseguir">
+        <a href="../campos-doses/index.html">Campos de Dose</a>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

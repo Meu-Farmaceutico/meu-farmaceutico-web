@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Farmaceutico | Doses</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');    
+        
+        :root{
+            --azul: #007EC3;
+            --texto: 'Roboto', sans-serif;
+        }
+
+        *::after, ::before {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        } 
+
+        .app{
+            display: flex;
+            flex-direction: column;
+        }
+
+    </style>
+</head>
+<body>
+    <main class="main">
+        <div class="app">
+            <select name="tipo" id="tipo">
+                <option class="tipo-selecionado"></option>
+            </select>
+            <select name="freq" id="freq">
+                <option class="freq-selecionada"></option>
+            </select>
+            <input type="time" name="time" id="time">
+            <div class="campos-dose"></div>
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>

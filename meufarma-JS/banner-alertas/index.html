@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Farmaceutico Digital | Banner de Alertas Críticos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        *, ::after, ::before {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root{
+            --azul: #007EC3;
+            --texto: 'Roboto', sans-serif;
+        }
+        .main{
+            font-family: var(--texto);
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .alertas-criticos-banner {
+            width: 100%;
+            padding:.5em;   
+            height: fit-content;
+            background: #FFFFFF;
+        }
+
+        .alertas-criticos-banner  h4 {
+            color: red;
+            margin-bottom: .5em;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 16.54px;
+        }
+
+        .alertas-criticos-info{
+            margin-bottom: .5em;
+            line-height: 15.23px;
+            font-size: 13px;
+        }
+
+        .alertas-criticos-action{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .alertas-criticos-call {
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 16.41px;
+        }
+    </style>
+</head>
+<body>
+    <main class="main">
+        <article class ="alertas-criticos-banner" >
+            <div class ="alertas-criticos-info">
+                <h4>Alertas Críticos</h4>
+                <p>Sempre reproduzem som e aparecem na tela de bloqueio mesmo que seu dispsositivo esteja mudo ou em modo Não perturbe. Você pode gerenciar alertas críticos nas considerações do dispositivo.<p>
+             </div>
+             <div class="alertas-criticos-action">
+                <p class="alertas-criticos-call">Ativar alertas críticos</p>
+                <button>[Toggle]</button> 
+             </div>
+    </main>
+    </article>
+</body>
+</html>
