@@ -6,7 +6,7 @@ Acesse o [Meu Farmacêutico](http://hackathon-pmenoslab.s3-website-sa-east-1.ama
 
 > ## Descrição
 
-      Meu Farmacêutico
+      Meu Farmacêutico Pague Menos foi um projeto desenvolvido durante o 3º Hackathon das Farmácias Pague Menos/P.Menos Lab, ocorrido nos dias 7, 8 e 9 de Outubro de 2022 no Ninna Hub, em Fortaleza . A Solução consiste em um acompanhador de tratamento para pessoas que precisam de medicação contínua, oferecendo um registro de tratamentos, lembretes personalizados, conteúdo informativo e facilidades de compra dos medicamentos necessários - tudo isso como uma feature do aplicativo da Pague Menos.  
 
 # :pushpin: Guia
 
