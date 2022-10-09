@@ -2,9 +2,9 @@ import "../styles/Home.css";
 
 const Home = () => {
   return (
-    <body className="Home">
-      <a href="#" class="btn"></a>
-    </body>
+    <div className="Home">
+      <a href="#" className="btn"></a>
+    </div>
   );
 };
 

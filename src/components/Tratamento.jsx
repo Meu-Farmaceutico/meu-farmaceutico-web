@@ -1,10 +1,6 @@
 const Tratamento = (props) => {
     console.log(props.config)
 
-    // function handleEditing() {
-        
-    // }
-
     return (
         <div className="produto" key={props.key}>
             <div className="produto__rotulo">
