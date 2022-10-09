@@ -13,6 +13,10 @@ Acesse o 🔗 [Meu Farmacêutico](http://hackathon-pmenoslab.s3-website-sa-east-
 ## :stars: Acesse o protótipo do App no Figma aqui: 
 <img src="https://user-images.githubusercontent.com/97472785/194769929-f7cc84ce-1074-44ef-ab9e-5265c31a741c.jpeg" style="width: 200px; height: 200px">
 
+## 🎞 Preview
+![previewall](https://user-images.githubusercontent.com/66763791/194771047-609aba1e-a065-447f-93ab-77cd74f474ba.jpg)
+
+
 # :pushpin: Guia
 
 - [Tecnologias](#rocket-technologies)
