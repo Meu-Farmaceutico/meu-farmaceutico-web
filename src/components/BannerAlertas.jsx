@@ -1,3 +1,5 @@
+import './banner-alertas.css';
+
 const BannerAlertas = () => {
     return(
         <article class ="alertas-criticos-banner" >
