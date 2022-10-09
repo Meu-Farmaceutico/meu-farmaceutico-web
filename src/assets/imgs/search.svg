@@ -1,11 +1,4 @@
-<svg width="144" height="144" viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="72" cy="72" r="72" fill="#007EC3"/>
-<path d="M94.1785 75.4736H94.9499C98.2285 75.4736 100.929 72.7736 100.929 69.495C100.929 66.2164 98.2285 63.5164 94.9499 63.5164H94.1785" stroke="white" stroke-width="1.85714" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M88.9714 72.0022C88.9714 81.4522 81.45 88.9737 72 88.9737C62.55 88.9737 55.0285 81.2594 55.0285 72.0022V63.5165C55.0285 54.0665 62.55 46.5451 72 46.5451C81.45 46.5451 88.9714 54.2594 88.9714 63.5165V72.0022Z" stroke="white" stroke-width="1.85714" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M49.8213 75.4738V61.781C49.8213 49.4381 59.8499 39.6024 71.9999 39.6024C84.1499 39.6024 94.1785 49.4381 94.1785 61.781V75.4738" stroke="white" stroke-width="1.85714" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M102.664 104.402C102.664 98.809 98.0356 94.1804 92.4427 94.1804H87.2356C84.5356 94.1804 82.4142 92.059 82.4142 89.359V85.6947" stroke="white" stroke-width="1.85714" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M61.7785 85.6947V89.359C61.7785 92.059 59.6571 94.1804 56.9571 94.1804H51.5571C45.9642 94.1804 41.3356 98.809 41.3356 104.402" stroke="white" stroke-width="1.85714" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M79.9071 77.4021C77.9785 79.5236 75.0856 80.8736 71.9999 80.8736C68.7213 80.8736 65.8285 79.3307 63.7071 77.0164" stroke="white" stroke-width="1.85714" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M60.4285 93.2176C63.5142 95.9176 67.3714 97.6533 71.8071 97.6533C76.4357 97.6533 80.4857 95.9176 83.5714 92.8319" stroke="white" stroke-width="1.85714" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M88.9714 63.5164H68.5285C64.8643 63.5164 61.7785 60.4307 61.7785 56.7664" stroke="white" stroke-width="1.85714" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 21L16.65 16.65" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

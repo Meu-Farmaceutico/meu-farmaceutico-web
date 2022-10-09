@@ -9,6 +9,8 @@ import {
 import Home from './paginas/Home';
 import OpcaoMais from './paginas/OpcaoMais';
 import HomeZero from './paginas/HomeZero';
+import AddMedicamento from './paginas/AddMedicamento';
+import AgendarMedicamento from './paginas/AgendarMedicamento';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -45,6 +47,8 @@ root.render(
       <Routes>
         <Route path="/homezero" element={<HomeZero />} /> 
         <Route path="/opcaomais" element={<OpcaoMais />} /> 
+        <Route path="/addmedicamento" element={<AddMedicamento />} /> 
+        <Route path="/agendarmedicamento" element={<AgendarMedicamento />} /> 
         <Route path="/" element={<Home />} /> 
       </Routes>
     </BrowserRouter>

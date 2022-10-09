@@ -1,0 +1,125 @@
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 1px solid #1A73E8;
+    border-radius: 5px;
+
+}
+
+.arrow {
+    color: #6A6A6A;
+    position: absolute;
+    margin: 12px;
+    width: 24px;
+    height: 24px;
+}
+
+.container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #E8E8E8 !important;
+}
+
+.arrow {
+    color: #6A6A6A;
+    position: absolute;
+    margin: 12px;
+    width: 24px;
+    height: 24px;
+}
+
+.PesquisaMedicamento {
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.PesquisaMedicamento:focus {
+    outline: none;
+}
+
+.Lupa {
+    height: 48px;
+    width: 35px;
+    background: transparent;
+    border-style: none;
+}
+
+.options {
+    display: grid;
+    width: 300px;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+div.options img {
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.list-group-flush {
+    border-radius: 0;
+}
+
+.list-group {
+    --bs-list-group-color: #212529;
+    --bs-list-group-bg: #fff;
+    --bs-list-group-border-color: rgba(0, 0, 0, 0.125);
+    --bs-list-group-border-width: 1px;
+    --bs-list-group-border-radius: 0.375rem;
+    --bs-list-group-item-padding-x: 1rem;
+    --bs-list-group-item-padding-y: 0.5rem;
+    --bs-list-group-action-color: #495057;
+    --bs-list-group-action-hover-color: #495057;
+    --bs-list-group-action-hover-bg: #f8f9fa;
+    --bs-list-group-action-active-color: #212529;
+    --bs-list-group-action-active-bg: #e9ecef;
+    --bs-list-group-disabled-color: #6c757d;
+    --bs-list-group-disabled-bg: #fff;
+    --bs-list-group-active-color: #fff;
+    --bs-list-group-active-bg: #0d6efd;
+    --bs-list-group-active-border-color: #0d6efd;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: var(--bs-list-group-border-radius);
+}
+
+.sugestoes {
+    color: #5D5D5D;
+    font-weight: 500;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    text-decoration: none;
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+}
