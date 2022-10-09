@@ -1,3 +1,53 @@
-.lembrete {
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');    
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --azul: #007EC3;
+    --texto: 'Roboto', sans-serif;
+}
+.main{
+    font-family: var(--texto);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    padding:1em;
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    height: fit-content;
+    background: #FFFFFF;
+}
+
+.card-info{
+    flex:3;
+}
+
+.card-nome-medicamento::before {
+    content: url('./assets/icons/pill.svg');
+    margin-right: .5em;
+}
+
+
+.card-nome-medicamento {
+    font-weight: 400;
+}
+
+.card-action {
+    flex: 1;
+}
+
+.card-toggle-lembrete{
+    border-radius: 50%;
+    border: none;
+    background: transparent;
 }
